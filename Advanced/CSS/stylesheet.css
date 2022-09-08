@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/background.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    overflow: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 0 50px 0 black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: tomato;
+}
+
+ul img {
+    height: 20px;
+    padding: 12px 0;
+}
+
+
+
+.hero-text {
+    text-align: center;
+    color: whitesmoke;
+    font-style: oblique;
+
+    width: 600px;
+    margin: 0 auto;
+
+    backdrop-filter: blur(0.5px);
+}
+
+/* div[id="hero"] > img {
+    position: absolute;
+    width: auto;
+} */
+
+main {
+    width: 600px;
+    margin: 100px  auto 0;
+    backdrop-filter: blur(1px);
+    padding: 0 10px;
+}
+
+footer {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    backdrop-filter: blur(1px);
+}
+
+footer > p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p {
+    color: lightgoldenrodyellow;
+}
