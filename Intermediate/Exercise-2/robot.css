@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+body {
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2015/09/25/blurred-background-city.jpg");
+  background-position: center;
+  background-size:auto;
+  overflow: hidden;
+  
+}
+
+#robot {
+  position: relative;
+  width: 500px;;
+  height: 500px;
+  margin: auto;
+}
+
+#face {
+  width: 400px;
+  display:block;
+  position: absolute;
+  bottom: 0;
+  visibility: visible;
+  z-index: 1;
+}
+
+#hat {
+  display:block;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 50px;
+  z-index:2;
+
+}
+
+#moustache {
+  display:block;
+  position: absolute;
+  width: 200px;
+  bottom: 60px;
+  left: 90px;
+  z-index: 3;
+
+}
+
+#mouth2 {
+  display:block;
+  position: absolute;
+  bottom: 54px;
+  width: 150px;
+  left: 110px;
+  z-index:2;
+}
+
+#eyes2 {
+  display:block;
+  position: absolute;
+  bottom: 190px;
+  width: 150px;
+  left: 120px;
+  z-index: 2;
+}
+
+#nose2 {
+  display:block;
+  position: absolute;
+  width: 60px;
+  bottom: 140px;
+  z-index:2;
+  left: 160px;
+  
+}
+
+#ears1 {
+  display:block;
+  position: absolute;
+  width: 410px;
+  bottom: 140px;
+  left:-10px;
+  z-index: 1;
+}
+
+#man {
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 700px;
+  top: 70px;
+  z-index: -1;
+}
